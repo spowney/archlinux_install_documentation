@@ -1,0 +1,4 @@
+sudo pacman -Sy git
+
+git config --global user.name = "spowney"
+git config --global user.email ="spowney88@gmail.com"

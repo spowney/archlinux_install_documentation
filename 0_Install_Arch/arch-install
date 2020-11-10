@@ -64,7 +64,7 @@
 	systemctl enable systemd-networkd.service
 
 #create a new initramfs - probably not needed as we havn't made any changes
-	kinitcpio -P
+	mkinitcpio -P
 
 #root password
 	passwd

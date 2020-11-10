@@ -1,0 +1,9 @@
+#requires git & base-devel
+
+git clone http://aur.archlinux.org/yay.git
+
+cd yay
+
+makepkg -si
+
+rm -rf yay
