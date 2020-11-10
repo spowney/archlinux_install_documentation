@@ -1,0 +1,6 @@
+#add new user spowney
+	useradd -m spowney
+#set new users password
+	passwd spowney
+#add user to wheel group for sudo
+	usermod -aG wheel
